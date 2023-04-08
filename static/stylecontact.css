@@ -1,0 +1,42 @@
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.form{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.ip{
+    margin: 12px 0;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 40%;
+    outline: none;
+}
+
+button
+{
+    padding: 12px 23px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+#container
+{
+    height: 80vh;
+    justify-content: center;
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+}

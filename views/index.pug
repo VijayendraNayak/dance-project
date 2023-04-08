@@ -1,0 +1,44 @@
+//- index.pug
+doctype html
+html
+  head
+    
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+      ul 
+        div 
+            img(src="/static/img/pngwing.com.png", alt="")
+        li #[a(href="/") Home]
+        li #[a(href="/") About]
+        li #[a(href="/contact") Contact us]
+        li #[a(href="/") Anime  Info]
+        li #[a(href="/") Services]
+    section#sectioninfo 
+      div.name Attack on titan  
+      div.small  watch now   
+    section#sectionmission 
+
+      h2.mishead   Other popular shows.... 
+
+      div#box
+        div#card1
+          div.aname One punch man 
+        div#card2
+          div.aname Naruto 
+        div#card3
+          div.aname Demon slayer 
+
+    section#sectionsponsors 
+      h2 Follow Us on 
+      div#sponsors
+        img(src="/static/img/fb.png", alt="Facebook") 
+        //- img(src="/static/img/gm.png", alt="Gmail") 
+        img(src="/static/img/insta.png", alt="Instagram") 
+        img(src="/static/img/microsoft.png", alt="Microsoft") 
+        img(src="/static/img/twitter.png", alt="Twitter") 
+
+    
+    script
+      include ../static/script.js

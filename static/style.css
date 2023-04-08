@@ -1,0 +1,164 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#navbar{
+    background-color: rgb(0, 0, 0);
+    padding: 13px 14px;
+    @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+    font-family: 'Russo One', sans-serif;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    
+}
+
+#navbar ul li{
+    list-style: none;
+    
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    padding: 7px 40px;
+    color: white;
+    font-weight: bold;
+}
+#navbar ul li a:hover{
+   color: grey;
+}
+
+#sectioninfo {
+height: 300px;
+background-color:rebeccapurple ;
+background: url(https://wallpaperaccess.com/full/36626.jpg) center center/cover no-repeat;
+display: flex;
+flex-direction: column;
+justify-content: center;
+opacity: 0.9;
+align-items: center;
+color: rgb(3, 3, 3);
+font-weight: bold;
+font-weight: bold;
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&family=Russo+One&display=swap');
+font-family: 'Almendra SC', serif;
+/* font-family: 'Russo One', sans-serif; */
+font-size: 45px;
+
+}
+
+#sectionsponsors {
+height: 200px;
+background-color:rgb(255, 255, 255) ;
+background: url("https://www.pixelstalk.net/wp-content/uploads/2016/10/Anime-Landscape-Backgrounds.jpg")center center/cover no-repeat;
+opacity: 0.7;
+}
+
+#footer{
+height: 100px;
+background-color: greenyellow;
+
+}
+.aname{
+    display: flex;
+    text-align: center;
+    color: rgb(255 255 255);
+    font-size: 39px;
+    font-weight: bold;
+    justify-content: center;
+    padding-top: 104px;@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+    font-family: 'Rubik 80s Fade', cursive;
+}
+
+.name{
+    color: #fc0303;
+    font-size: 55px;
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+    font-family: 'Cinzel', serif;
+}
+.small{
+    color: black;
+    font-size: 33px;
+}
+
+#sectionmission{
+   height: 350px; 
+   background-color: rgb(0, 0, 0);
+   /* background: url(https://wallpaperaccess.com/full/4065694.jpg) center center/cover; */
+    z-index:-1 ;
+}
+#box{
+    display: flex;
+    flex-direction: row;
+}
+
+.mishead{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 34px;
+    font-weight: bold;
+    justify-content:center ;
+}
+
+#card1,#card2,#card3{
+    border-radius: 15px;
+    margin: 12px 24px;
+    height: 250px;
+    width: 400px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+#card1{
+    background: url(https://decider.com/wp-content/uploads/2019/05/one-punch-man-season-2-episode-6.jpg?quality=75&strip=all&w=1200) center center/cover;
+    /* opacity: 0.8; */
+}
+
+#card2{
+    background: url(https://images4.alphacoders.com/476/47698.png) center center/cover;
+    /* opacity: 0.8; */
+}
+
+#card3{
+    background: url(https://wallpaperaccess.com/full/5112370.jpg) center center/cover;
+    /* opacity: 0.8; */
+}
+
+img{
+    height: 30px;
+    width: 25px;
+}
+
+#sponsors{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 80%;
+}
+
+#sponsors img{
+    height: 75px;
+    width: 75px;
+    padding: 40px;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#footer{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
